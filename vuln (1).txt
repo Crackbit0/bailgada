@@ -1,0 +1,515 @@
+[swagger-api] [http] [info] https://harbor.devops.weareone.world/swagger.json [paths="/swagger.json"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/WeAreOne.World/v2.0/.well-known/openid-configuration ["7c2b38b1-29ce-4509-aeca-84eea82b5745"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/weareone.world/v2.0/.well-known/openid-configuration ["7c2b38b1-29ce-4509-aeca-84eea82b5745"]
+[cookies-without-httponly] [javascript] [info] hr.weareone.world ["crumb"]
+[cookies-without-httponly] [javascript] [info] weareone.world ["crumb"]
+[cookies-without-httponly] [javascript] [info] WeAreOne.World ["crumb"]
+[cookies-without-httponly] [javascript] [info] www.hr.weareone.world ["crumb"]
+[cookies-without-secure] [javascript] [info] gj.staging.eks.weareone.world ["gjshopstaging_session"]
+[cookies-without-httponly] [javascript] [info] gj.staging.eks.weareone.world ["XSRF-TOKEN"]
+[cookies-without-httponly] [javascript] [info] gj.production.eks.weareone.world ["XSRF-TOKEN"]
+[cookies-without-secure] [javascript] [info] gj.production.eks.weareone.world ["gjshopproduction_session"]
+[cookies-without-httponly] [javascript] [info] www.weareone.world ["crumb"]
+[missing-sri] [http] [info] https://verdaccio.weareone.world ["https://verdaccio.weareone.world/-/static/main.f6e570dfe38870a45bf5.js","https://verdaccio.weareone.world/-/static/runtime.f6e570dfe38870a45bf5.js","https://verdaccio.weareone.world/-/static/vendors.f6e570dfe38870a45bf5.js"]
+[missing-sri] [http] [info] https://www.hr.weareone.world ["//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js","//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js","//assets.squarespace.com/universal/scripts-compressed/performance-e71b26781eaccf31f6f4-min.en-US.js","https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.03f6b4da1188b5006917209e252012ea.js","//use.typekit.net/ik/j7QGEAycRyJkCoiLdqByTewtDHpqUYfJsUi4JfRxLXvfe06IfFHN4UJLFRbh52jhWDjXFcwhwcjhwDSkwQJXFRIXw29DFQ9Uws78MkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0ShBCjAuydcs8SKuqdhic-WFGOWMuZ2j0SaBujW48Sagyjh90jhNlOfG0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1Oco8ifUySkolZPUGSKoaZABkZAN0ZPoada4CZfUCdhFydeyzSabCShBCjAuydcs8SKuqdhic-WFGOWMuZ2j0SaBujW48Sagyjh90jhNlOYFUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0jhNlOYiaikoyjamTiY8Djhy8ZYmC-Ao1Oco8ifUaiaS0jWw0dA9CiaiaOcykO1i8jW48dho8O1izScUqOYiaikoDjAUydAB0ZemkOAszZhZTSh6lS2mqFKoDSWmyScmDSeBRZPoRdhXCiaiaO1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXKIcBqdh48OAiyScBldhoqOWgkdkJ4Z1mXiW4yOWgXJ6NGjAUojW4qOAsTSagCjWq7fbRDFgMMeMb6MKG4fVMXIMMjgkMfH6qJvRbbMg65JMJ7fbRUFgMMegI6MKG4fJZmIMIjMkMfH6qJ6m9bMs6YJMJ7fbK2msMgeMX6MKG4fJ4mIMIjIPMfH6GJojtfIMJjMkMfqMe0vnHRg6.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-979112a09a6b0b167504-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6c569122bfa66a51a056-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-457f4d444e0242501efb-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-61293f01d648eef165fc-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-3fcaaea836eadc9d2491-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-5377071887f83b9a5063-min.en-US.js"]
+[missing-sri] [http] [info] https://www.hr.weareone.world/ ["//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js","//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6c569122bfa66a51a056-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-61293f01d648eef165fc-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-3fcaaea836eadc9d2491-min.en-US.js","https://static1.squarespace.com/static/vta/5c5a519771c10ba3470d8101/scripts/site-bundle.03f6b4da1188b5006917209e252012ea.js","//use.typekit.net/ik/j7QGEAycRyJkCoiLdqByTewtDHpqUYfJsUi4JfRxLXvfe06IfFHN4UJLFRbh52jhWDjXFcwhwcjhwDSkwQJXFRIXw29DFQ9Uws78MkG0jAFu-WsoShFGZAsude80ZkoRdhXCHKoyjamTiY8Djhy8ZYmC-Ao1Oco8if37OcBDOcu8OfG0ShBCjAuydcs8SKuqdhic-WFGOWMuZ2j0SaBujW48Sagyjh90jhNlOfG0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1Oco8ifUySkolZPUGSKoaZABkZAN0ZPoada4CZfUCdhFydeyzSabCShBCjAuydcs8SKuqdhic-WFGOWMuZ2j0SaBujW48Sagyjh90jhNlOYFUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0jhNlOYiaikoyjamTiY8Djhy8ZYmC-Ao1Oco8ifUaiaS0jWw0dA9CiaiaOcykO1i8jW48dho8O1izScUqOYiaikoDjAUydAB0ZemkOAszZhZTSh6lS2mqFKoDSWmyScmDSeBRZPoRdhXCiaiaO1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXKIcBqdh48OAiyScBldhoqOWgkdkJ4Z1mXiW4yOWgXJ6NGjAUojW4qOAsTSagCjWq7fbRDFgMMeMb6MKG4fVMXIMMjgkMfH6qJvRbbMg65JMJ7fbRUFgMMegI6MKG4fJZmIMIjMkMfH6qJ6m9bMs6YJMJ7fbK2msMgeMX6MKG4fJ4mIMIjIPMfH6GJojtfIMJjMkMfqMe0vnHRg6.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-979112a09a6b0b167504-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-457f4d444e0242501efb-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-5377071887f83b9a5063-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/performance-e71b26781eaccf31f6f4-min.en-US.js"]
+[missing-sri] [http] [info] https://www.weareone.world/ ["//assets.squarespace.com/universal/scripts-compressed/common-vendors-3fcaaea836eadc9d2491-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-96c6dd736eecfc311400-min.en-US.js","//use.typekit.net/ik/GtsjI8EO4VZt2xfNAhBsJu9POMcg7lmjLaAe2lpLkbjfelIIf4e6pUJ6wRMU5QwXFmvhwDqUwDbuwAIkjDSXwDiyjcJDFcIuZQI-q3w7OcBRiA8XpWFR-emqiAUTdcS0jhNlOfG0jAFu-WsoShFGZAsude80Zko0ZWbCHKoySkolZP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCHKoXdhuzS14zihUydcsaZA4D-Ws8O1FUiABkZWF3jAF8OcFzdPUyjamTiY8Djhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1Oco8ifUySkolZPUCdhFydeyzSabCSaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUXdhuzS14zihUydcsaZA4D-Ws8O1FUiABkZWF3jAF8OcFzdPUaZABkZAN0ZPoada4CZfUaiaS0jAFu-WsoShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0dcmXOYiaikoySkolZPUaiaS0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUaiaS0ieNlda4kdaiCjAoqihmKSh8XZPoDSWmyScmDSeBRZPoRdhXCiaiaO1i8jW48dho8O1izScUqJ6U3ScNt-AuyOAozicIKIeZkZA81-YblShB0Sku3ScvKfAZuiYmkjPu3ifG4fHvgIMMjgfMfH6qJnbIbMg6eJMJ7fbKOMsMMeMS6MKG4fOMgIMMj2KMfH6qJRMIbMg6sJMJ7fbKP-sMgeM96MKG4fJZmIMJjMkMfH6qJyB9bMy6IJMJ7fbRxmgMfeM96MTMgzn_P13j.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-4f0565d1d9fde09be2a6-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6c569122bfa66a51a056-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-457f4d444e0242501efb-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-61293f01d648eef165fc-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/slides-8a13843271302872ad3a-min.en-US.js","//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js","//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js"]
+[missing-sri] [http] [info] https://www.weareone.world ["//assets.squarespace.com/universal/scripts-compressed/common-96c6dd736eecfc311400-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/slides-8a13843271302872ad3a-min.en-US.js","//use.typekit.net/ik/GtsjI8EO4VZt2xfNAhBsJu9POMcg7lmjLaAe2lpLkbjfelIIf4e6pUJ6wRMU5QwXFmvhwDqUwDbuwAIkjDSXwDiyjcJDFcIuZQI-q3w7OcBRiA8XpWFR-emqiAUTdcS0jhNlOfG0jAFu-WsoShFGZAsude80Zko0ZWbCHKoySkolZP37O1FUiABkZWF3jAF8ShFGZAsude80ZkoRdhXCHKoXdhuzS14zihUydcsaZA4D-Ws8O1FUiABkZWF3jAF8OcFzdPUyjamTiY8Djhy8ZYmC-Ao1OcFzdPUyjamTiY8Djhy8ZYmC-Ao1Oco8ifUySkolZPUCdhFydeyzSabCSaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUXdhuzS14zihUydcsaZA4D-Ws8O1FUiABkZWF3jAF8OcFzdPUaZABkZAN0ZPoada4CZfUaiaS0jAFu-WsoShFGZAsude80ZkoRdhXCiaiaOcBRiA8XpWFR-emqiAUTdcS0dcmXOYiaikoySkolZPUaiaS0SaBujW48SagyjhmDjhy8ZYmC-Ao1OcFzdPUaiaS0ieNlda4kdaiCjAoqihmKSh8XZPoDSWmyScmDSeBRZPoRdhXCiaiaO1i8jW48dho8O1izScUqJ6U3ScNt-AuyOAozicIKIeZkZA81-YblShB0Sku3ScvKfAZuiYmkjPu3ifG4fHvgIMMjgfMfH6qJnbIbMg6eJMJ7fbKOMsMMeMS6MKG4fOMgIMMj2KMfH6qJRMIbMg6sJMJ7fbKP-sMgeM96MKG4fJZmIMJjMkMfH6qJyB9bMy6IJMJ7fbRxmgMfeM96MTMgzn_P13j.js","//assets.squarespace.com/@sqs/polyfiller/1.6/modern.js","//assets.squarespace.com/universal/scripts-compressed/cldr-resource-pack-457f4d444e0242501efb-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-stable-61293f01d648eef165fc-min.en-US.js","//assets.squarespace.com/@sqs/polyfiller/1.6/legacy.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-runtime-4f0565d1d9fde09be2a6-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/extract-css-moment-js-vendor-6c569122bfa66a51a056-min.en-US.js","//assets.squarespace.com/universal/scripts-compressed/common-vendors-3fcaaea836eadc9d2491-min.en-US.js"]
+[waf-detect:nginxgeneric] [http] [info] https://harbor.devops.weareone.world
+[waf-detect:securesphere] [http] [info] https://verdaccio.weareone.world
+[waf-detect:varnish] [http] [info] https://lb.weareone.world
+[waf-detect:cloudfront] [http] [info] https://lb.weareone.world
+[waf-detect:nginxgeneric] [http] [info] https://lb.weareone.world
+[waf-detect:varnish] [http] [info] https://pl-geo.weareone.world
+[waf-detect:cloudfront] [http] [info] https://pl-geo.weareone.world
+[waf-detect:nginxgeneric] [http] [info] https://pl-geo.weareone.world
+[waf-detect:varnish] [http] [info] https://pl-cache.weareone.world
+[waf-detect:cloudfront] [http] [info] https://pl-cache.weareone.world
+[waf-detect:securesphere] [http] [info] https://pomerium.devops.weareone.world
+[waf-detect:nginxgeneric] [http] [info] https://bas.weareone.world
+[waf-detect:apachegeneric] [http] [info] https://authentik-request.devops.weareone.world
+[waf-detect:apachegeneric] [http] [info] https://authentik.devops.weareone.world
+[waf-detect:apachegeneric] [http] [info] https://weareone.world
+[waf-detect:wts] [http] [info] https://pl.weareone.world
+[waf-detect:anyu] [http] [info] https://pl.weareone.world
+[waf-detect:apachegeneric] [http] [info] https://pl.weareone.world
+[waf-detect:safedog] [http] [info] https://pl.weareone.world
+[waf-detect:nginxgeneric] [http] [info] https://pl.weareone.world
+[waf-detect:modsecurity] [http] [info] https://pl.weareone.world
+[waf-detect:squid] [http] [info] https://pl.weareone.world
+[openssh-detect] [tcp] [info] pl-cache.weareone.world:22 ["SSH-2.0-OpenSSH_8.2p1"]
+[mysql-detect] [tcp] [info] limecraft-kiosk.weareone.world:3306
+[openssh-detect] [tcp] [info] limecraft-kiosk.weareone.world:22 ["SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10"]
+[openssh-detect] [tcp] [info] verdaccio.weareone.world:22 ["SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.11"]
+[mysql-native-password] [tcp] [info] limecraft-kiosk.weareone.world:3306
+[CVE-2024-6387] [tcp] [high] limecraft-kiosk.weareone.world:22
+[deprecated-tls:tls_1.1] [ssl] [info] pl-cache.weareone.world:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] pl.weareone.world:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] gj.production.eks.weareone.world:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] gj.staging.eks.weareone.world:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] pl-cache.weareone.world:443 ["tls10"]
+[tls-version] [ssl] [info] pl-cache.weareone.world:443 ["tls10"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] pl-cache.weareone.world:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] gj.production.eks.weareone.world:443 ["tls10"]
+[tls-version] [ssl] [info] pl.weareone.world:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] pl.weareone.world:443 ["tls10"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] gj.staging.eks.weareone.world:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] pl.weareone.world:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] gj.production.eks.weareone.world:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] gj.staging.eks.weareone.world:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] gj.production.eks.weareone.world:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] gj.staging.eks.weareone.world:443 ["tls10"]
+[tls-version] [ssl] [info] pl-cache.weareone.world:443 ["tls11"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] pl-cache.weareone.world:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] pl.weareone.world:443 ["tls11"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] gj.staging.eks.weareone.world:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] gj.production.eks.weareone.world:443 ["tls11"]
+[tls-version] [ssl] [info] pl-cache.weareone.world:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] pl.weareone.world:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] gj.staging.eks.weareone.world:443 ["tls11"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] gj.production.eks.weareone.world:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] backupmp3.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] lb.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pl-geo.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pl-cache.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] voucher-generator.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] authentik.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] mics.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] firezone.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] authentik-request.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] backupmp3.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] verdaccio.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] lb.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] limecraft-kiosk.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] arf.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pl.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pl-geo.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] bas.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] portainer.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] home.dev.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] harbor.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] tgld.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] gj.production.eks.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pomerium.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] gj.staging.eks.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] mics.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] verdaccio.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] limecraft-kiosk.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] arf.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] authentik-request.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] voucher-generator.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] firezone.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] bas.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] authentik.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] home.dev.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] harbor.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] tgld.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] portainer.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] www.hr.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] hr.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] pomerium.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] WeAreOne.World:443 ["tls12"]
+[tls-version] [ssl] [info] weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] WeAreOne.World:443 ["tls13"]
+[tls-version] [ssl] [info] www.hr.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] hr.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] zabbix-vector.devops.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] zabbix-vector.devops.weareone.world:443 ["tls13"]
+[tls-version] [ssl] [info] www.weareone.world:443 ["tls12"]
+[tls-version] [ssl] [info] www.weareone.world:443 ["tls13"]
+[swagger-api] [http] [info] https://harbor.devops.weareone.world/swagger.json [paths="/swagger.json"]
+[CVE-2024-40725] [http] [high] https://portainer.devops.weareone.world
+[CVE-2024-40725] [http] [high] https://pl.weareone.world
+[soap-ajax-debugshell] [http] [low] https://harbor.devops.weareone.world/soap/ajax/20.0/debugshell.js
+[security-txt] [http] [info] https://home.dev.weareone.world/.well-known/security.txt ["mailto:security@goauthentik.io"]
+[security-txt] [http] [info] https://tgld.weareone.world/.well-known/security.txt ["mailto:security@goauthentik.io"]
+[security-txt] [http] [info] https://authentik-request.devops.weareone.world/.well-known/security.txt ["mailto:security@goauthentik.io"]
+[security-txt] [http] [info] https://authentik.devops.weareone.world/.well-known/security.txt ["mailto:security@goauthentik.io"]
+[security-txt] [http] [info] https://voucher-generator.weareone.world/.well-known/security.txt ["mailto:security@goauthentik.io"]
+[authentik-panel] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[authentik-panel] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[authentik-panel] [http] [info] https://home.dev.weareone.world/static/dist/assets/icons/icon.png
+[authentik-panel] [http] [info] https://voucher-generator.weareone.world/static/dist/assets/icons/icon.png
+[authentik-panel] [http] [info] https://tgld.weareone.world/static/dist/assets/icons/icon.png
+[xss-deprecated-header] [http] [info] https://mics.devops.weareone.world ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://verdaccio.weareone.world ["1; mode=block"]
+[icecast-server-detect] [http] [info] https://backupmp3.weareone.world
+[xss-deprecated-header] [http] [info] https://pomerium.devops.weareone.world ["1; mode=block"]
+[nginx-version] [http] [info] https://bas.weareone.world ["nginx/1.24.0"]
+[cowboy-detect] [http] [info] https://firezone.devops.weareone.world
+[xss-deprecated-header] [http] [info] https://portainer.devops.weareone.world ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://gj.staging.eks.weareone.world ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://gj.production.eks.weareone.world ["1; mode=block"]
+[easypost-token] [http] [info] https://pl-cache.weareone.world ["EZAKfOMg6oznfyhkD2ukbEafKpoc7VgOJzv2TmyYJMCCEhDne2ccrmCMgc"]
+[easypost-token] [http] [info] https://pl-geo.weareone.world ["EZAKfOMg6oznfyhkD2ukbEafKpoc7VgOJzv2TmyYJMCCEhDne2ccrmCMgc"]
+[easypost-token] [http] [info] https://lb.weareone.world ["EZAKfOMg6oznfyhkD2ukbEafKpoc7VgOJzv2TmyYJMCCEhDne2ccrmCMgc"]
+[easypost-token] [http] [info] https://pl.weareone.world ["EZAKfOMg6oznfyhkD2ukbEafKpoc7VgOJzv2TmyYJMCCEhDne2ccrmCMgc"]
+[aws-cloudfront-service] [http] [info] https://pl-cache.weareone.world
+[aws-cloudfront-service] [http] [info] https://lb.weareone.world
+[aws-cloudfront-service] [http] [info] https://pl-geo.weareone.world
+[apache-detect] [http] [info] https://pl.weareone.world ["Apache"]
+[nginx-version] [http] [info] https://lb.weareone.world ["nginx/1.14.2"]
+[nginx-version] [http] [info] https://pl-geo.weareone.world ["nginx/1.14.2"]
+[harbor-panel] [http] [info] https://harbor.devops.weareone.world/api/v2.0/systeminfo ["v2.10.0-6abb4eab"]
+[icecast-mediaserver-detect] [http] [info] https://backupmp3.weareone.world/server_version.xsl ["Icecast 2.4.4"]
+[CVE-2016-6601] [http] [high] https://harbor.devops.weareone.world/servlets/FetchFile?fileName=../../../etc/shadow
+[robots-txt-endpoint] [http] [info] https://firezone.devops.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://authentik.devops.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://home.dev.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://voucher-generator.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://tgld.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://authentik-request.devops.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://www.hr.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://gj.production.eks.weareone.world/robots.txt
+[robots-txt-endpoint] [http] [info] https://gj.staging.eks.weareone.world/robots.txt
+[rdap-whois:expirationDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["2026-01-11T16:00:00.053Z"]
+[rdap-whois:registrantName] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World [""]
+[rdap-whois:registrantOrg] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["1EuroHost BVBA"]
+[rdap-whois:nameServers] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["ns-864.awsdns-44.net","ns-262.awsdns-32.com","ns-1143.awsdns-14.org","ns-1682.awsdns-18.co.uk"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["false"]
+[rdap-whois:status] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["client transfer prohibited","auto renew period"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["2015-01-11T16:00:00.053Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["2025-01-16T18:29:57.995Z"]
+[rdap-whois:registrantAddress] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World ["OVL"]
+[rdap-whois:registrantCountry] [http] [info] https://rdap.identitydigital.services/rdap/domain/WeAreOne.World [""]
+[rdap-whois:status] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["client transfer prohibited","auto renew period"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["2015-01-11T16:00:00.053Z"]
+[rdap-whois:lastChangeDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["2025-01-16T18:29:57.995Z"]
+[rdap-whois:registrantName] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world [""]
+[rdap-whois:registrantOrg] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["1EuroHost BVBA"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["false"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["2026-01-11T16:00:00.053Z"]
+[rdap-whois:registrantAddress] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["OVL"]
+[rdap-whois:registrantCountry] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world [""]
+[rdap-whois:nameServers] [http] [info] https://rdap.identitydigital.services/rdap/domain/weareone.world ["ns-1682.awsdns-18.co.uk","ns-864.awsdns-44.net","ns-262.awsdns-32.com","ns-1143.awsdns-14.org"]
+[harbor-detect] [http] [info] https://harbor.devops.weareone.world/api/v2.0/systeminfo
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://firezone.devops.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://harbor.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://backupmp3.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://portainer.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://verdaccio.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pomerium.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://bas.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.hr.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:permissions-policy] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:clear-site-data] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://mics.devops.weareone.world/app/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://mics.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:strict-transport-security] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:content-security-policy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:permissions-policy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:strict-transport-security] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:content-security-policy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:permissions-policy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:clear-site-data] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[http-missing-security-headers:clear-site-data] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://pl-geo.weareone.world
+[aws-detect:aws-cloudfront] [http] [info] https://pl-geo.weareone.world
+[aws-detect:aws-api-gateway] [http] [info] https://pl-geo.weareone.world
+[aws-detect:aws-xray] [http] [info] https://pl-geo.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:clear-site-data] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:strict-transport-security] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:content-security-policy] [http] [info] https://gj.staging.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:strict-transport-security] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:content-security-policy] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:permissions-policy] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:clear-site-data] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://gj.production.eks.weareone.world/login
+[http-missing-security-headers:strict-transport-security] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://lb.weareone.world
+[aws-detect:aws-cloudfront] [http] [info] https://lb.weareone.world
+[aws-detect:aws-api-gateway] [http] [info] https://lb.weareone.world
+[aws-detect:aws-xray] [http] [info] https://lb.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pl-cache.weareone.world
+[aws-detect:aws-cloudfront] [http] [info] https://pl-cache.weareone.world
+[aws-detect:aws-api-gateway] [http] [info] https://pl-cache.weareone.world
+[aws-detect:aws-xray] [http] [info] https://pl-cache.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://pl.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://zabbix-vector.devops.weareone.world
+[http-missing-security-headers:x-content-type-options] [http] [info] https://www.weareone.world
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.weareone.world
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:permissions-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:x-frame-options] [http] [info] https://www.weareone.world
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www.weareone.world
+[http-missing-security-headers:referrer-policy] [http] [info] https://www.weareone.world
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.weareone.world
+[portainer-panel] [http] [info] https://portainer.devops.weareone.world
+[robots-txt] [http] [info] https://firezone.devops.weareone.world/robots.txt
+[robots-txt] [http] [info] https://www.hr.weareone.world/robots.txt
+[robots-txt] [http] [info] https://hr.weareone.world/robots.txt
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://harbor.devops.weareone.world
+[fingerprinthub-web-fingerprints:harbor] [http] [info] https://harbor.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://harbor.devops.weareone.world
+[tech-detect:nginx] [http] [info] https://harbor.devops.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://arf.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://arf.devops.weareone.world
+[tech-detect:nginx] [http] [info] https://bas.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://firezone.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://firezone.devops.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://home.dev.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Fhome.dev.weareone.world%2F
+[tech-detect:caddy] [http] [info] https://home.dev.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Fhome.dev.weareone.world%2F
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://home.dev.weareone.world
+[tech-detect:caddy] [http] [info] https://home.dev.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://limecraft-kiosk.weareone.world
+[tech-detect:caddy] [http] [info] https://limecraft-kiosk.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://verdaccio.weareone.world
+[tech-detect:caddy] [http] [info] https://verdaccio.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://voucher-generator.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Fvoucher-generator.weareone.world%2F
+[tech-detect:caddy] [http] [info] https://voucher-generator.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Fvoucher-generator.weareone.world%2F
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://tgld.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Ftgld.weareone.world%2F
+[tech-detect:caddy] [http] [info] https://tgld.weareone.world/outpost.goauthentik.io/start?rd=https%3A%2F%2Ftgld.weareone.world%2F
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[tech-detect:caddy] [http] [info] https://authentik-request.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://tgld.weareone.world
+[tech-detect:caddy] [http] [info] https://tgld.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://voucher-generator.weareone.world
+[tech-detect:caddy] [http] [info] https://voucher-generator.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik-request.devops.weareone.world/flows/-/default/authentication/?next=/
+[tech-detect:caddy] [http] [info] https://authentik-request.devops.weareone.world/flows/-/default/authentication/?next=/
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik-request.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://authentik-request.devops.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.staging.eks.weareone.world/login
+[tech-detect:caddy] [http] [info] https://gj.staging.eks.weareone.world/login
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.production.eks.weareone.world/login
+[tech-detect:caddy] [http] [info] https://gj.production.eks.weareone.world/login
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.staging.eks.weareone.world/admin
+[tech-detect:caddy] [http] [info] https://gj.staging.eks.weareone.world/admin
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.production.eks.weareone.world/admin
+[tech-detect:caddy] [http] [info] https://gj.production.eks.weareone.world/admin
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.staging.eks.weareone.world
+[tech-detect:caddy] [http] [info] https://gj.staging.eks.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://gj.production.eks.weareone.world
+[tech-detect:caddy] [http] [info] https://gj.production.eks.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[tech-detect:caddy] [http] [info] https://authentik.devops.weareone.world/if/flow/default-authentication-flow/?next=%2F
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik.devops.weareone.world/flows/-/default/authentication/?next=/
+[tech-detect:caddy] [http] [info] https://authentik.devops.weareone.world/flows/-/default/authentication/?next=/
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://authentik.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://authentik.devops.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://portainer.devops.weareone.world
+[fingerprinthub-web-fingerprints:portainer] [http] [info] https://portainer.devops.weareone.world
+[tech-detect:angularjs] [http] [info] https://portainer.devops.weareone.world
+[tech-detect:angular] [http] [info] https://portainer.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://portainer.devops.weareone.world
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://zabbix-vector.devops.weareone.world
+[tech-detect:caddy] [http] [info] https://zabbix-vector.devops.weareone.world
+[htaccess-config] [http] [info] https://gj.production.eks.weareone.world/.htaccess
+[htaccess-config] [http] [info] https://gj.staging.eks.weareone.world/.htaccess
+[tech-detect:squarespace] [http] [info] https://www.hr.weareone.world
+[CVE-2023-32315] [http] [high] https://harbor.devops.weareone.world/setup/setup-s/%25u002e%25u002e/%25u002e%25u002e/log.jsp
+[form-detection] [http] [info] https://gj.production.eks.weareone.world/login
+[form-detection] [http] [info] https://gj.staging.eks.weareone.world/login
+[ssl-issuer] [ssl] [info] backupmp3.weareone.world:443 ["Sectigo Limited"]
+[expired-ssl] [ssl] [low] backupmp3.weareone.world:443 ["2022-02-19 23:59:59 +0000 UTC"]
+[revoked-ssl-certificate] [ssl] [low] backupmp3.weareone.world:443
+[ssl-dns-names] [ssl] [info] backupmp3.weareone.world:443 ["backupmp3.weareone.world","www.backupmp3.weareone.world"]
+[ssl-issuer] [ssl] [info] pl-cache.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] pl-cache.weareone.world:443 ["pl-cache.weareone.world"]
+[ssl-issuer] [ssl] [info] lb.weareone.world:443 ["Let's Encrypt"]
+[expired-ssl] [ssl] [low] lb.weareone.world:443 ["2024-05-12 12:50:32 +0000 UTC"]
+[mismatched-ssl-certificate] [ssl] [low] lb.weareone.world:443 ["CN: pl-cache.weareone.world"]
+[revoked-ssl-certificate] [ssl] [low] lb.weareone.world:443
+[ssl-dns-names] [ssl] [info] lb.weareone.world:443 ["pl-cache.weareone.world"]
+[ssl-issuer] [ssl] [info] pl-geo.weareone.world:443 ["Let's Encrypt"]
+[expired-ssl] [ssl] [low] pl-geo.weareone.world:443 ["2024-05-12 12:50:32 +0000 UTC"]
+[mismatched-ssl-certificate] [ssl] [low] pl-geo.weareone.world:443 ["CN: pl-cache.weareone.world"]
+[revoked-ssl-certificate] [ssl] [low] pl-geo.weareone.world:443
+[ssl-dns-names] [ssl] [info] pl-geo.weareone.world:443 ["pl-cache.weareone.world"]
+[ssl-issuer] [ssl] [info] authentik-request.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] authentik-request.devops.weareone.world:443 ["authentik-request.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] firezone.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] firezone.devops.weareone.world:443 ["firezone.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] authentik.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] authentik.devops.weareone.world:443 ["authentik.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] arf.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] arf.devops.weareone.world:443 ["arf.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] portainer.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] portainer.devops.weareone.world:443 ["portainer.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] verdaccio.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] verdaccio.weareone.world:443 ["verdaccio.weareone.world"]
+[ssl-issuer] [ssl] [info] mics.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] mics.devops.weareone.world:443 ["mics.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] harbor.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] harbor.devops.weareone.world:443 ["harbor.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] pomerium.devops.weareone.world:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] pomerium.devops.weareone.world:443 ["CN: *.funny-foxhound-9783.pomerium.app"]
+[ssl-dns-names] [ssl] [info] pomerium.devops.weareone.world:443 ["*.funny-foxhound-9783.pomerium.app"]
+[wildcard-tls] [ssl] [info] pomerium.devops.weareone.world:443 ["CN: *.funny-foxhound-9783.pomerium.app","SAN: [*.funny-foxhound-9783.pomerium.app]"]
+[ssl-issuer] [ssl] [info] limecraft-kiosk.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] limecraft-kiosk.weareone.world:443 ["limecraft-kiosk.weareone.world"]
+[ssl-issuer] [ssl] [info] bas.weareone.world:443 ["Let's Encrypt"]
+[mismatched-ssl-certificate] [ssl] [low] bas.weareone.world:443 ["CN: mta-sts.aamukorva.com"]
+[ssl-dns-names] [ssl] [info] bas.weareone.world:443 ["mta-sts.aamukorva.com"]
+[ssl-issuer] [ssl] [info] tgld.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] tgld.weareone.world:443 ["tgld.weareone.world"]
+[ssl-issuer] [ssl] [info] home.dev.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] home.dev.weareone.world:443 ["home.dev.weareone.world"]
+[ssl-issuer] [ssl] [info] voucher-generator.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] voucher-generator.weareone.world:443 ["voucher-generator.weareone.world"]
+[ssl-issuer] [ssl] [info] weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] weareone.world:443 ["weareone.world"]
+[ssl-issuer] [ssl] [info] gj.production.eks.weareone.world:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] gj.production.eks.weareone.world:443 ["gj.production.eks.weareone.world"]
+[ssl-issuer] [ssl] [info] WeAreOne.World:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] WeAreOne.World:443 ["weareone.world"]
+[ssl-issuer] [ssl] [info] hr.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] hr.weareone.world:443 ["hr.weareone.world"]
+[ssl-issuer] [ssl] [info] www.hr.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] www.hr.weareone.world:443 ["www.hr.weareone.world"]
+[ssl-issuer] [ssl] [info] gj.staging.eks.weareone.world:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] gj.staging.eks.weareone.world:443 ["gj.staging.eks.weareone.world"]
+[ssl-issuer] [ssl] [info] pl.weareone.world:443 ["Amazon"]
+[ssl-dns-names] [ssl] [info] pl.weareone.world:443 ["pl.weareone.world"]
+[ssl-issuer] [ssl] [info] zabbix-vector.devops.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] zabbix-vector.devops.weareone.world:443 ["zabbix-vector.devops.weareone.world"]
+[ssl-issuer] [ssl] [info] www.weareone.world:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] www.weareone.world:443 ["www.weareone.world"]
+[dns-saas-service-detection] [dns] [info] firezone.devops.weareone.world ["gateway.devops.weareone.world"]
+[txt-fingerprint] [dns] [info] gj.staging.eks.weareone.world [""heritage=external-dns,external-dns/owner=staging-eks-weareone-world,external-dns/resource=ingress/global-journey/global-journey""]
+[tech-detect:nginx] [http] [info] https://pl-geo.weareone.world
+[tech-detect:nginx] [http] [info] https://lb.weareone.world

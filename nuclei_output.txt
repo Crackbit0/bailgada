@@ -1,0 +1,64 @@
+[CVE-2023-34960] [http] [high] https://learningcrew.genetec.com/main/webservices/additional_webservices.php
+[CVE-2023-34960] [http] [high] https://learn.genetec.com/main/webservices/additional_webservices.php
+[x-forwarded-reflection] [http] [medium] https://order.genetec.com ["google.com"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/id.login.genetec.com/v2.0/.well-known/openid-configuration ["01f0d759-b468-4e73-85f0-995aa46b9a6d"]
+[swagger-api] [http] [info] https://svservicesstage.genetec.com/swagger/index.html [paths="/swagger/index.html"]
+[http-trace:options-request] [http] [info] https://id.login.genetec.com
+[cookies-without-httponly] [javascript] [info] forecast.genetec.com ["crumb"]
+[cookies-without-httponly] [javascript] [info] developer.genetec.com ["AWSALB","AWSALBCORS","FT_LOCALES"]
+[aspx-debug-mode] [http] [info] https://svbackupservicesstaging.genetec.com/Foobar-debug.aspx
+[aspx-debug-mode] [http] [info] https://svbackupservices.genetec.com/Foobar-debug.aspx
+[cookies-without-secure] [javascript] [info] developer.genetec.com ["AWSALB"]
+[missing-sri] [http] [info] https://gsamp.genetec.com ["https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"]
+[missing-sri] [http] [info] https://genetecedi.test.genetec.com ["https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js","https://ajax.aspnetcdn.com/ajax/jquery.ui/1.13.2/jquery-ui.min.js"]
+[missing-sri] [http] [info] https://learn.genetec.com/learn ["https://cdn2.dcbstatic.com/public/static-content/init.js","https://cdn2.dcbstatic.com/polyfills.7a4c7d746b603767.js","https://cdn2.dcbstatic.com/scripts.14749211ae9bfdf2.js","https://cdn2.dcbstatic.com/main.a797e117161bde58.js"]
+[missing-sri] [http] [info] https://events.genetec.com/login.php ["https://staticcdn.eventscloud.com/libs/js/jquery/3.6.4/jquery-3.6.4.min.js"]
+[missing-sri] [http] [info] https://developer.genetec.com ["https://developer.genetec.com/third-party/scripts/momentjs/min/moment.min.js?v=08cc86ae","https://developer.genetec.com/scripts/ft-app-context-dependencies.js?v=8af82c02","https://developer.genetec.com/scripts/custom.js?v=09a8fa3d","https://developer.genetec.com/scripts/bootstrap.js?v=a19c29cb","https://developer.genetec.com/scripts/fluidtopics.min.js?v=b401a9cd","https://developer.genetec.com/fluidtopicsclient.nocache.js"]
+[missing-sri] [http] [info] https://learningcrew.genetec.com/learn ["https://cdn2.dcbstatic.com/public/static-content/init.js","https://cdn2.dcbstatic.com/polyfills.7a4c7d746b603767.js","https://cdn2.dcbstatic.com/scripts.14749211ae9bfdf2.js","https://cdn2.dcbstatic.com/main.a797e117161bde58.js"]
+[missing-sri] [http] [info] https://sam.genetec.com ["https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"]
+[missing-sri] [http] [info] https://login.microsoftonline.com/7ba8d2fb-4660-4a19-802e-4d015a17e167/oauth2/v2.0/authorize?response_type=code+id_token&redirect_uri=https%3A%2F%2Frestrictarch.genetec.com%2F.auth%2Flogin%2Faad%2Fcallback&client_id=a378089c-2c49-4ca2-8947-657b176e8149&scope=openid+profile+email&response_mode=form_post&nonce=35641edb220946e3bdc8b3417540ae05_20250119163700&state=redir%3D%252F ["https://aadcdn.msauth.net/ests/2.1/content/cdnbundles/ux.converged.login.strings-en.min_v20ia-gahguvu2fgvxamhg2.js"]
+[missing-sri] [http] [info] https://paportal-dev.genetec.com/en-US/ ["https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry-wrapper.bundle-633e70f51b.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-dependency.bundle-805a1661b7.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-loader.bundle-f4a0e619b8.js","https://content.powerapps.com/resource/powerappsportal/dist/app.bundle-a9e4fdb602.js","https://content.powerapps.com/resource/powerappsportal/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js","https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry.bundle-f9f45b65a6.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf.bundle-78bd5169be.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-extended.bundle-e303d53553.js","https://content.powerapps.com/resource/powerappsportal/controls/host/main.b26f42703f.chunk.js","https://content.powerapps.com/resource/powerappsportal/dist/bootstrap.bundle-105a4995b8.js","https://content.powerapps.com/resource/powerappsportal/dist/postpreform.bundle-184c77da50.js","https://content.powerapps.com/resource/powerappsportal/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js"]
+[missing-sri] [http] [info] https://paportal-devmaster.genetec.com/en-US/ ["https://content.powerapps.com/resource/powerappsportal/dist/app.bundle-a9e4fdb602.js","https://content.powerapps.com/resource/powerappsportal/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js","https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry.bundle-f9f45b65a6.js","https://content.powerapps.com/resource/powerappsportal/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf.bundle-78bd5169be.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-loader.bundle-f4a0e619b8.js","https://content.powerapps.com/resource/powerappsportal/dist/bootstrap.bundle-105a4995b8.js","https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry-wrapper.bundle-633e70f51b.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-dependency.bundle-805a1661b7.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-extended.bundle-e303d53553.js","https://content.powerapps.com/resource/powerappsportal/controls/host/main.b26f42703f.chunk.js","https://content.powerapps.com/resource/powerappsportal/dist/postpreform.bundle-184c77da50.js"]
+[missing-sri] [http] [info] https://paportal.genetec.com/en-US/ ["https://content.powerapps.com/resource/powerappsportal/dist/pcf.bundle-9183da3d63.js","https://content.powerapps.com/resource/powerappsportal/controls/host/main.e9930a0a5c.chunk.js","https://content.powerapps.com/resource/powerappsportal/dist/bootstrap.bundle-105a4995b8.js","https://content.powerapps.com/resource/powerappsportal/dist/postpreform.bundle-184c77da50.js","https://content.powerapps.com/resource/powerappsportal/dist/default-1033.moment_2_29_4.bundle-eda4e638fd.js","https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry.bundle-c71b2e2d47.js","https://content.powerapps.com/resource/powerappsportal/dist/client-telemetry-wrapper.bundle-633e70f51b.js","https://content.powerapps.com/resource/powerappsportal/dist/preform.moment_2_29_4.bundle-4fdd3f639b.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-dependency.bundle-805a1661b7.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-extended.bundle-e303d53553.js","https://content.powerapps.com/resource/powerappsportal/dist/pcf-loader.bundle-f4a0e619b8.js","https://content.powerapps.com/resource/powerappsportal/dist/app.bundle-dad47d7e41.js"]
+[missing-sri] [http] [info] https://www.events.genetec.com/ehome/index.php?eventid=271605 ["https://atelier-id.ca/s/jquerymin.js","https://atelier-id.ca/s/main.js","https://code.jquery.com/jquery-migrate-3.4.0.js","https://atelier-id.ca/s/skelmin.js","https://atelier-id.ca/s/util.js","https://staticcdn.eventscloud.com/libs/js/jquery/3.6.4/jquery-3.6.4.min.js","https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js","https://ps-etouches-com.s3.amazonaws.com/genetec/genetec-template-2017/bower_components/imagesloaded/imagesloaded.pkgd.min.js","https://ps-etouches-com.s3.amazonaws.com/genetec/genetec-template-2017/js/custom.js"]
+[waf-detect:akamai] [http] [info] https://clearpath.genetec.com
+[waf-detect:nginxgeneric] [http] [info] https://ghostwriter.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://meetings-b.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://forecast.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://axisxgenetec-help.genetec.com
+[waf-detect:modsecurity] [http] [info] https://axisxgenetec-help.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://events.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://meetings-a.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://meetings.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://gsamp.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://axispoweredbygenetec-help.genetec.com
+[waf-detect:modsecurity] [http] [info] https://axispoweredbygenetec-help.genetec.com
+[waf-detect:modsecurity] [http] [info] https://maintenance.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://maintenance.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://developer.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://downloadz.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://downloads.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://paybyplate.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://order-maint.genetec.com
+[waf-detect:modsecurity] [http] [info] https://order-maint.genetec.com
+[waf-detect:modsecurity] [http] [info] https://partners-maint.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://partners-maint.genetec.com
+[waf-detect:cloudflare] [http] [info] https://go.genetec.com
+[waf-detect:cloudflare] [http] [info] https://subscriptions.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://synergis-cloudlink-help.genetec.com
+[waf-detect:modsecurity] [http] [info] https://synergis-cloudlink-help.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://samhealth.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://samhealth-qa-stage.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://samhealthanon.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://sam.genetec.com
+[waf-detect:securesphere] [http] [info] https://svportal.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://svhelp.genetec.com
+[waf-detect:modsecurity] [http] [info] https://svhelp.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://svbackupservices.genetec.com
+[waf-detect:aspgeneric] [http] [info] https://svbackupservicesstaging.genetec.com
+[waf-detect:apachegeneric] [http] [info] https://www.events.genetec.com
+[request-based-interaction:dns] [http] [info] https://clearpath.genetec.com/
+[request-based-interaction:dns] [http] [info] https://email.rnd.genetec.com/
+[request-based-interaction:dns] [http] [info] https://email.rnd.genetec.com
+[openssh-detect] [tcp] [info] limecraft-kiosk.weareone.world:22 ["SSH-2.0-OpenSSH_8.9p1 Ubuntu-3ubuntu0.10"]
+[mysql-detect] [tcp] [info] limecraft-kiosk.weareone.world:3306
